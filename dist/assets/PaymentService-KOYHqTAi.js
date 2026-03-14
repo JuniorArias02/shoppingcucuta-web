@@ -1,1 +1,0 @@
-import{a as n}from"./index-D1-PZcxq.js";const o={initWompiTransaction:async a=>{const e=await n.post("/payments/wompi/init",{pedido_id:a});return console.log("📦 PaymentService Response:",e.data),e.data},confirmPayment:async a=>(await n.post(`/payments/${a}/confirm`)).data};export{o as default};
