@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://shoppingcucuta.com/sitemap.xml
+Disallow: /admin/
+Disallow: /client/
+Disallow: /cart
+Disallow: /search
+Disallow: /login
+Disallow: /register
+Disallow: /password-reset
